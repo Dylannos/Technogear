@@ -70,7 +70,7 @@ body {
     height: 450px;
     text-align: center;
     padding-bottom: 10px;
-    background-image: url("/IMG/cuadro4.jpg");
+    background-image: url("/IMG/cuadro5.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position:right;
@@ -87,7 +87,7 @@ body {
     height: 450px;
     text-align: center;
     padding-top: 10px;
-    background-image: url("/IMG/celu1.jpg");
+    background-image: url("/IMG/celu2.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -104,7 +104,7 @@ body {
     height: 450px;
     text-align: center;
     padding-top: 10px;
-    background-image: url("/IMG/software2.jpg");
+    background-image: url("/IMG/software3.jpg.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -139,9 +139,12 @@ body {
 }
 .Info{
     font-size: 20px;
-    margin: 20px 0;
+    margin-right:5px;
+    margin-top: 20px;
     color: rgb(255, 255, 255);
     font-family: 'Kanit', sans-serif;
+    text-align: center;
+
 }
 .main_button{
     display: flex;
