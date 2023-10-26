@@ -360,7 +360,16 @@ body {
    }
    .main_map{
     flex-wrap: wrap;
-    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   }
+   .main_map2{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
    }
    .footer_sect{
     gap: 20px;
