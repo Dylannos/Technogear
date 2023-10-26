@@ -70,7 +70,11 @@ body {
   
 }
 .main_map{
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  padding-bottom: 20px;
 }
 .computer1{
     width: 300px;
@@ -213,8 +217,48 @@ body {
     width: 119px;
     height: 119px;
     border-radius: 50%;
-    
-    
+  }
+  .footer_sect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+  .face{
+    width: 50px;
+    height: 50px;
+  }
+  .face:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  .inst{
+    width: 50px;
+    height: 50px;
+  }
+  .inst:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  .tik{
+    width: 50px;
+    height: 50px;
+  }
+  .tik:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  .you{
+    width: 50px;
+    height: 50px;
+  }
+  .you:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  .marcas{
+    width:80px ;
+    height: 80px;
   }
   @keyframes glow{
     0%, 100%{
@@ -256,7 +300,18 @@ body {
   .map1{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
+  .main_map2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding-bottom: 20px;
+    padding-top:20px;
+  }
   @media screen and (max-width: 480px){
+    h2{
+      font-size: 40px;
+    }
     .main_sect1{
       flex-wrap: wrap;
       gap: 30px;
@@ -292,6 +347,23 @@ body {
    }
    .logo{
     background-image: none;
+   }
+   .marcas{
+    height: 60px;
+    width: 60px;
+    flex-wrap: wrap;
+   }
+   .map_main{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+   }
+   .main_map{
+    flex-wrap: wrap;
+    
+   }
+   .footer_sect{
+    gap: 20px;
    }
   }
   @media screen and (min-width: 768px){
